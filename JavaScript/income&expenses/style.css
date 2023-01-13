@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Oswald&display=swap');
+
+:root{
+    --box-shadow:0 1px 3px rgba(0,0,0,0.12)
+}
+
+*{
+    font-family: 'Kanit', sans-serif;
+    /* font-family: 'Oswald', sans-serif; */
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: whitesmoke;
+}
+
+h2{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #bebebe;
+}
+
+li {
+    list-style-type: none;
+}
+
+button {
+    cursor: pointer;
+    
+}
+.container {  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.totalcost {
+    font-size: 20px;
+
+}
+.money {
+    font-size: 24px;
+}
+
+.income-expenses{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    padding: 50px;
+    margin: 35px 0;
+    font-size: 24px;
+    box-shadow: var(--box-shadow);
+    background-color: white;
+}
+
+.totalincome{
+    display: flex;
+    flex-direction: column;
+}
+
+.totalexpenses{
+    width: 50%;
+    border-left: 1px solid #dedede;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.money-plus {
+    color: rgb(4, 143, 4);
+}
+.money-minus{
+    color:red
+}
+
+
+.income{
+    width: 50%;
+}
+
+.expenses{
+    width: 50%;
+}
+
+.income-li{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 5px;
+    margin: 5px 0;
+    
+}
+
+#income-cost {
+    color: rgb(4, 143, 4);
+}
+#expenses-cost {
+    color: red;
+}
